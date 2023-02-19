@@ -5,12 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lofin-Signup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <!-- welcome page -->
         <div class="welcome">
-            <div class="h2"></div>
+            <div class="login-title">Logo</div>
+            <p class="login-des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="login-btn">Login</button>
+            <button class="register-btn">Register</button>
+        </div>
+
+        <!-- Register page -->
+        <div class="register">
+            <form action="">
+                <h2 class="register-title">Reginter Your Account</h2>
+                <input type="text" placeholder="Username" class="name" id="name">
+                <input type="email" placeholder="Email" class="email" id="name">
+                <input type="password" placeholder="password" class="name" id="name">
+                <input type="submit" class="name" id="name" value="RESGISTER">
+            </form>
+        </div>
+
+        <!-- LOGIN PAGE -->
+        <div class="login">
+            <form action="">
+                <input type="email" placeholder="Email" class="name" id="name">
+                <input type="password" placeholder="password" class="name" id="name">
+                <input type="submit" class="name" id="name" value="LOGIN">
+                <a class="forget-link" href="#">Forget Password</a>
+            </form>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
